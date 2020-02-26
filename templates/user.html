@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{%USERNAME%}  {%USERSURNAME%} | {%USERID%}</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        main{
+            width:80%;
+            margin-left: 10%;
+            margin-right:10%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="foto">
+            <img src="./images/defecto.png" alt="Foto defecto">
+        </div>
+        <div>
+            {%USERID%}
+            {%USERNAME%}
+            {%USERSURNAME%}
+            {%user_identification_document%}
+            {%user_age%}
+            {%USERSTUDIES%}            {%user_nacionality%}
+            {%user_autonomous_community%}
+            {%user_province%}
+            {%user_locality%}
+            {%user_mobile_phone%}
+            {%user_description%}
+        </div>
+        <div></div>
+    </main>
+</body>
+</html>

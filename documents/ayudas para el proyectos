@@ -1,0 +1,15 @@
+En el package.json encontraremos símbolos como ^, *, ~
+Estos simbolos simbolizan:
+^ desde esa version a las superiores.
+* todas las versiones.
+~ la mas cercana, hacia las superiores.
+
+Ver versiones de un paquete => npm outdated;
+Por ejemplo podemos ver varias versiones del paquete:
+Current: actual.
+Wanted: buscado, estable.
+Latest: último.
+npm update "nombre-del-paquete"
+
+Instalar paquete => npm install "nombre-del-paquete"
+Desinstalar un paquete => npm unistall "nombre-del-paquete"

@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-api-sencillo",
+  "version": "1.0.0",
+  "description": "Crearemos una api sencilla. Con tres plantillas html incluidas en ellas los css sencillos con algunas \"etiquetas\" ({%parametro%}) por los cuales nos ayudaremos para crear dinamismo entre las plantillas. Crearemos nuestro propio modulo que tendra una funcion que nos ayudara a sustituir esas etiquetas por su valor dado en el archivo json. Y finalmente como indice tendremos un index.js que sera nuestra union para tener un sistema sencillo MVC.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Jose Ramos Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^2.0.4",
+    "slugify": "^1.3.6"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0",
+    "jshint": "^2.11.0",
+    "nodemon": "^2.0.2"
+  }
+}
